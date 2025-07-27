@@ -1,0 +1,29 @@
+# Игнорируем ВСЁ по умолчанию
+**
+
+# Разрешаем только нужные файлы
+!out/
+!src/
+!pom.xml
+!mvnw
+!mvnw.cmd
+!.mvn/
+!target/
+!Dockerfile
+!application.yml
+!application.properties
+!static/
+!templates/
+
+# Дополнительные исключения (если нужно)
+!logs/  # Если логи нужны в контейнере
+!config/
+
+# Игнорируем ненужное
+.git/
+.gitignore
+.idea/
+*.iml
+*.log
+*.swp
+temp/
